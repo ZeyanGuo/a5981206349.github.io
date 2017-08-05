@@ -1,0 +1,146 @@
+*{
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				color: white;
+				font-size: 2em;
+			}
+			header{
+				padding-top: 230px;
+				color: white;
+				font-size: 5em;
+			}
+			#content-intro{
+				background: #22B573;
+			}
+			#content-intro p{
+				font-size: 1em;
+			}
+			#myPhoto{
+				display: inline-block;
+				margin-top: 150px;
+				width: 250px;
+				height: 250px;
+				border-radius: 50%;
+				border: 10px solid #aee2d9;
+				background-image: url(../img/pic/mySelf.jpg);
+				background-repeat: no-repeat;
+				background-size: 525px 375px;
+				background-position: -180px 0;
+			}
+			#content-intro>img{
+				margin-top: 150px;
+				display: inline-block;
+				width: 250px;
+				height: 250px;
+				border-radius: 50%;
+				border: 10px solid #aee2d9;
+			}
+			.s{
+				position: relative;
+				text-align: center;
+			}
+			.next{
+				position: absolute;
+				bottom: 0;
+				left: calc(50% - 20px);
+			}
+			#content-nav{
+				height: 50px;
+				background: black;
+				color: white;
+				position: fixed;
+				z-index: 1;
+			}
+			#content-nav>header{
+				display: inline-block;
+				line-height: 50px;
+				margin-left: 50px;
+				font-size: 1em;
+				padding: 0;
+			}
+			#content-nav>nav{
+				display: inline;
+				float: right;
+				line-height: 50px;
+				margin-right: 50px;
+			}
+			.nav-item{
+				padding: 0 20px 0 20px;
+			}
+			a{
+				text-decoration: none;
+				color: white;
+			}
+			#content-profession{
+				background: #1889C5;
+			}
+			#content-project{
+				background: #9C58B6;
+			}
+			#content-link{
+				background: #26B1B6;
+			}
+			#content-more{
+				background: #129DE7;
+			}
+			#content-profession>header{
+				padding-top:200px ;
+				
+			}
+			
+			#content-project>header{
+				padding-top:100px ;
+				
+			}
+			#timeline{
+				display: inline-block;
+				background-image:url(../img/pic/timeline.png);
+				background-repeat: no-repeat;
+				margin-top: 20px;
+				width: 940px;
+				height: 30px;
+			}
+			#content-project .item{
+				display: inline-block;
+				margin: 0 10px 0 10px;
+				width: 300px;
+				height: 400px;
+				vertical-align: top;
+			}
+			.item .project-picture{
+				display: inline-block;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				background: #22B573;
+				border: 3px solid white;
+			}
+			.item>p{
+				margin-top: 6px;
+				font-size: 1.5em;
+			}
+			.left-text{
+				text-align: left;
+			}
+			.introduce{
+				margin-top: 50px;
+				display: inline-block;
+				width: 500px;
+				height: 200px;
+				color: white;
+				vertical-align: top;
+			}
+			.introduce .left{
+				display: inline-block;
+				text-align: right;
+			}
+			.introduce .right{
+				display: inline-block;
+				text-align: left;
+			}
+			
+			.light-blue{
+				color: #13daec;
+			}
