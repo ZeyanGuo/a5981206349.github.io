@@ -1,0 +1,39 @@
+@media only screen and (max-width: 4000px){
+	body{
+		font-size: 26px;
+	}
+	.introduce{
+		width: 800px;
+	}
+	#content-project .item{
+		width: 400px;
+	}
+	.timeItem{
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 1800px){
+	body{
+		font-size: 22px;
+	}
+	.introduce{
+		width: 700px;
+	}
+}
+@media only screen and (max-width: 1600px){
+	body{
+		font-size: 18px;
+	}
+	.introduce{
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 1440px){
+	body{
+		font-size: 16px;
+	}
+	.introduce{
+		width: 500px;
+	}
+}
+
