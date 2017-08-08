@@ -101,6 +101,19 @@
 				margin-top: 20px;
 				width: 940px;
 				height: 30px;
+				position: relative;
+			}
+			#timeline::before{
+				position: absolute;
+				display: block;
+				width: 100px;
+				height: 100px;
+				content: 'Now';
+				color: white;
+				font-size: 25px;
+				line-height: 30px;
+				right: 30px;
+				background: #9C58B6;
 			}
 			#content-project .item{
 				display: inline-block;
